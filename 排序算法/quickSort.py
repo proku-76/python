@@ -1,12 +1,7 @@
 def quick_sort(arr):
-    """
-    快速排序主函数
-    """
-    # 递归终止条件：数组长度小于等于1时直接返回
     if len(arr) <= 1:
         return arr
 
-    # 选择基准值（pivot）
     pivot = arr[len(arr) // 2]  # 通常选择中间元素作为基准值
 
     # 分区操作
